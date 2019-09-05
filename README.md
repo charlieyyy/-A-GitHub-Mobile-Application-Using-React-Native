@@ -1,10 +1,10 @@
-# chess
+# github-react-native-app
 > The idea of this project is to build a mobile app for github using React Native framework.
 
 
 ## Table of contents
 * [Technologies](#technologies)
-* [Screenshots](#screenshots)
+* [Setup](#setup)
 * [Features](#features)
 * [Testing](#testing)
 * [License](#license)
@@ -18,23 +18,20 @@
 * "react-native-svg-charts": "^4.2.0",
 * "react-navigation": "^1.5.0"
 
-
 ## Setup
-clone the project to local using git, and then build the project. The starting phase should looks like the screenshot shown below.
-
-## Screenshots
-![Example screenshot](./assets/screenshot.png)
-
+clone the project to local using git. run `npm install` first, then run `npm start`. 
 
 ## Features
 List of features ready
-* Restart - restart the game
-* Forfeit - give up the game
-* Undo - undo the last move
+* Log in using OAuth 2.0
+* Repositories page - Clickable text
+* Search function - search both user and repository
+* Profile page, Following and Follower Page
 
 
 ## Testing
-There is unit testing for each feature and class. Learn more about [junit testing](https://www.vogella.com/tutorials/JUnit/article.html)
+It has a Manuel Test Plan pdf for this project.
+
 ## License
 
 Distributed under the MIT License.
